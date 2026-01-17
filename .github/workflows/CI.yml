@@ -6,14 +6,14 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
+   paths-ignore:
+    - '.github/workflows/CI.yml'
    branches: 
     - main
     ######### Added by susanta to exclude qc and ppd branch
     - '!susgcit_qc'
     - '!susgcit_ppd'
-    - '!README.md'
-    - '!docs/**'
-    - '!.github/workflows/CI.yml'
+
   
    #branches: [ "susgcit_qc" ]
   #pull_request:
