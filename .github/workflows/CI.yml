@@ -8,7 +8,7 @@ on:
   push:
    branches: 
     - main
-    ######## Added by susanta to exclude qc and ppd branch
+    ######### Added by susanta to exclude qc and ppd branch
     - '!susgcit_qc'
     - '!susgcit_ppd'
     - 'README.md'
