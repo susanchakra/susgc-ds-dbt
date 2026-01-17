@@ -11,6 +11,9 @@ on:
     ######## Added by susanta to exclude qc and ppd branch
     - '!susgcit_qc'
     - '!susgcit_ppd'
+    - 'README.md'
+    - 'docs/**'
+    - 'CI.yml'
   
    #branches: [ "susgcit_qc" ]
   #pull_request:
