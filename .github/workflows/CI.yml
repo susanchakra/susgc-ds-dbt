@@ -5,9 +5,9 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
+  #push:
    #branches: [ "main" ]
-   branches: [ "susgcit_qc" ]
+   #branches: [ "susgcit_qc" ]
   #pull_request:
    # branches: [ "main" ]
 
