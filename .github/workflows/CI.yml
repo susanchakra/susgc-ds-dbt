@@ -18,7 +18,7 @@ on:
   push:
    ######### Added by susanta to exclude path/file
    paths-ignore:
-    - '.github/workflows/CI.yml'
+    - '.github/workflows/*.yml'
    branches: 
     - main
     ######### Added by susanta to exclude qc and ppd branch
