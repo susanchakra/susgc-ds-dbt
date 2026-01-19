@@ -9,6 +9,7 @@ on:
    ######### Added by susanta to exclude path/file
    paths-ignore:
     - '.github/workflows/*.yml'
+    - '*.yml'
    branches: 
     - main
     ######### Added by susanta to exclude qc and ppd branch
