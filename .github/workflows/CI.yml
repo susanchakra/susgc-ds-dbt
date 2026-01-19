@@ -35,7 +35,7 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     #########added by Susanta conditional pull
-    if: github.event_name == 'pull_request' && github.ref_name != 'susgcit_qc' && github.ref_name != 'susgcit_ppd'
+    if: github.event_name == 'pull_request' && (github.ref_name != 'susgcit_qc' || github.ref_name != 'susgcit_ppd')
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
