@@ -1,0 +1,7 @@
+# This is a comment.
+#
+# The default owners for everything in the repo
+#* @global-owner1 @global-owner2
+
+/src/docs/      @docs-team
+/src/app/       @app-team
