@@ -1,10 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 
-<<<<<<< HEAD
-name: CI
-=======
+
 name: CI_GCIT_qc
->>>>>>> c647902eeaf263cb4d9f34926c65e5b8da9473a1
 
 # Controls when the workflow will run
 on:
